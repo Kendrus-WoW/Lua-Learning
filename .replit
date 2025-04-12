@@ -1,0 +1,11 @@
+entrypoint = "main.lua"
+run = "lua main.lua"
+
+[nix]
+channel = "stable-24_05"
+
+[languages.lua]
+pattern = "**/*.lua"
+
+[languages.lua.languageServer]
+start = ["lua-language-server"]
