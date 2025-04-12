@@ -9,3 +9,15 @@ pattern = "**/*.lua"
 
 [languages.lua.languageServer]
 start = ["lua-language-server"]
+
+[workflows]
+runButton = "calculator"
+
+[[workflows.workflow]]
+name = "calculator"
+mode = "sequential"
+author = 36537944
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "lua calculator.lua"
