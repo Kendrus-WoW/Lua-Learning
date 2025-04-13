@@ -1,0 +1,1 @@
+print("RPG em Lua")

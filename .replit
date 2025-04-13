@@ -11,6 +11,7 @@ pattern = "**/*.lua"
 start = ["lua-language-server"]
 
 [workflows]
+runButton = "RPG"
 
 [[workflows.workflow]]
 name = "calculator"
@@ -20,3 +21,12 @@ author = 36537944
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "lua calculator.lua"
+
+[[workflows.workflow]]
+name = "RPG"
+mode = "sequential"
+author = 36537944
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "lua RPG.lua"
