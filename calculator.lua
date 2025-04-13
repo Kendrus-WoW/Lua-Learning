@@ -2,13 +2,13 @@
 -- Calculator on Lua --
 print("Ben vindo a calculadora feita em Lua coloque dois numeros e escolha qual sera a operação !")
 
-print("coloque o primeiro numero")
+print("coloque o primeiro numero:\n")
 
-numero1 = io.read("*n")
+numero1 = tonumber(io.read())
 
 print("coloque o segundo numero")
 
-numero2 = io.read("*n")
+numero2 = tonumber(io.read())
 
 print("escolha a operação: + , - , * , /")
 
