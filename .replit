@@ -1,5 +1,5 @@
-entrypoint = "RPG.lua"
-run = "lua RPG.lua"
+entrypoint = "main.lua"
+run = "lua main.lua"
 
 [nix]
 channel = "stable-24_05"
