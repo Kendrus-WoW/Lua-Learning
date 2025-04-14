@@ -4,11 +4,12 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
 
         {
             "type": "lua",
             "request": "launch",
-            "name": "RPG.lua",
+            "name": "RPG",
             "program": "${workspaceFolder}/RPG.lua"
         }
     ]
