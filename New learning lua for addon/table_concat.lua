@@ -34,7 +34,7 @@ table.insert(grupo, p1)
 table.insert(grupo, p2)
 table.insert(grupo, p3)
 
-for i, p in pairs(grupo) do
+for i, p in ipairs(grupo) do
     local grupo_p = personagens(p.nome, p.classe, p.nivel)
     local itens_p = inventario_geral(p.nome, p.inventario)
     print("------------------------------------------------")
